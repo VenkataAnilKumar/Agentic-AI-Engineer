@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Discussion
+    url: https://github.com/VenkataAnilKumar/Agentic-AI-Engineer/discussions
+    about: Ask questions and discuss with the community
+  - name: 📖 Documentation
+    url: https://github.com/VenkataAnilKumar/Agentic-AI-Engineer#readme
+    about: Read the documentation and guides
+  - name: 🤝 Contributing Guide
+    url: https://github.com/VenkataAnilKumar/Agentic-AI-Engineer/blob/main/CONTRIBUTING.md
+    about: Learn how to contribute to this project

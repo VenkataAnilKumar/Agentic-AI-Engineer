@@ -1,0 +1,93 @@
+name: 📚 Resource Suggestion
+description: Suggest a new resource (course, project, tool)
+title: "[RESOURCE] "
+labels: ["enhancement", "resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a resource! Please ensure it's **free and open-source**.
+
+  - type: dropdown
+    id: resource-type
+    attributes:
+      label: Resource Type
+      description: What type of resource is this?
+      options:
+        - Free Course
+        - Open Source Project
+        - Tool/Library
+        - Tutorial
+        - Documentation
+        - Research Paper
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: Name of the resource
+      placeholder: e.g., "Deep RL Course by UC Berkeley"
+    validations:
+      required: true
+
+  - type: input
+    id: resource-link
+    attributes:
+      label: Link
+      description: URL to the resource
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of the resource and why it's valuable
+      placeholder: This course covers...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section should this be added to?
+      options:
+        - Core Concepts
+        - Architecture & Design
+        - Frameworks & Tools
+        - Integration & Deployment
+        - Applications & Case Studies
+        - Supporting Skills
+        - Agent Evaluation
+        - Research & Future Directions
+        - Resources
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This resource is free and openly accessible
+          required: true
+        - label: This resource is relevant to Agentic AI Engineering
+          required: true
+        - label: I have checked that this resource is not already included
+          required: true

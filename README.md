@@ -4,6 +4,10 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![GitHub stars](https://img.shields.io/github/stars/VenkataAnilKumar/Agentic-AI-Engineer?style=social)](https://github.com/VenkataAnilKumar/Agentic-AI-Engineer/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/VenkataAnilKumar/Agentic-AI-Engineer?style=social)](https://github.com/VenkataAnilKumar/Agentic-AI-Engineer/network/members)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## 📖 What is This?
 
